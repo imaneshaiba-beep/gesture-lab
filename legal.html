@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mentions légales — Gesture Lab</title>
+  <meta name="author" content="Shaiba Imane">
+  <meta name="description" content="Mentions légales, vie privée (caméra) et crédits de Gesture Lab.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #ffffff; --ink: #0d0d0f; --ink-muted: #5c5c63; --line: rgb(13 13 15 / 0.12);
+      --serif: "Instrument Serif", "Times New Roman", serif;
+      --sans: "Inter Tight", system-ui, -apple-system, sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 15px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+    a { color: inherit; text-underline-offset: 3px; }
+    :focus-visible { outline: 1.5px solid var(--ink); outline-offset: 4px; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 26px clamp(16px, 3vw, 44px); }
+    .mark { font-weight: 500; text-transform: uppercase; letter-spacing: .08em; font-size: 12px; text-decoration: none; }
+    .back { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
+    main { max-width: 720px; margin: 0 auto; padding: 24px 16px 96px; }
+    h1 { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: clamp(48px, 9vw, 96px); line-height: .95; letter-spacing: -.03em; margin: 24px 0 12px; }
+    .updated { color: var(--ink-muted); font-size: 13px; margin: 0 0 40px; }
+    .short { font-family: var(--serif); font-size: 24px; line-height: 1.3; margin: 0 0 48px; }
+    h2 { font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: .08em; margin: 56px 0 16px; padding-top: 16px; border-top: 1px solid var(--line); }
+    h3 { font-size: 15px; font-weight: 500; margin: 28px 0 8px; }
+    p, ul { margin: 0 0 14px; }
+    ul { padding-left: 18px; }
+    li { margin-bottom: 6px; }
+    dl { display: grid; grid-template-columns: minmax(140px, 200px) 1fr; gap: 10px 24px; margin: 0; }
+    dt { color: var(--ink-muted); }
+    dd { margin: 0; }
+    @media (max-width: 560px) { dl { grid-template-columns: 1fr; gap: 2px; } dd { margin-bottom: 12px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="mark" href="index.html">Gesture Lab</a>
+    <a class="back" href="index.html">← Retour à l'expérience</a>
+  </header>
+
+  <main>
+    <h1>Mentions légales</h1>
+    <p class="updated">Dernière mise à jour : 17 novembre 2026</p>
+    <p class="short">En bref : la caméra est facultative, ta vidéo est analysée sur ton appareil et n'est jamais envoyée ni enregistrée. Pas de cookies, pas de statistiques.</p>
+
+    <h2>1. Éditrice</h2>
+    <dl>
+      <dt>Éditrice</dt><dd>Shaiba Imane — étudiante, projet personnel à but non commercial présenté lors des portes ouvertes</dd>
+      <dt>Contact</dt><dd><a href="mailto:imane.shaiba@outlook.com">imane.shaiba@outlook.com</a></dd>
+      <dt>Pays</dt><dd>Belgique</dd>
+      <dt>Responsable de la publication</dt><dd>Shaiba Imane</dd>
+      <dt>Hébergement</dt><dd>Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis — <a href="https://vercel.com">vercel.com</a></dd>
+    </dl>
+
+    <h2>2. La caméra et ta vie privée (RGPD)</h2>
+    <h3>Ce qui se passe quand tu actives la main</h3>
+    <ul>
+      <li>La caméra ne s'allume <strong>qu'après ton clic</strong> sur « Activer la main », et ton navigateur te demande d'abord l'autorisation.</li>
+      <li>Les images sont analysées <strong>dans ton navigateur, sur ton appareil</strong>, par un modèle de détection de la main (MediaPipe). Elles ne sont <strong>jamais envoyées</strong> à un serveur, ni <strong>enregistrées</strong>.</li>
+      <li>Seules les positions de la main (21 points) sont calculées, le temps de faire bouger la forme, puis oubliées.</li>
+      <li>La caméra se coupe quand tu cliques sur « Couper la caméra » ou quand tu quittes l'onglet.</li>
+      <li>Tout fonctionne aussi sans caméra, à la souris, au clavier ou au toucher.</li>
+    </ul>
+
+    <h3>Cookies et stockage</h3>
+    <p>Ce site n'utilise aucun cookie, aucun outil de statistiques, aucune publicité et ne stocke rien dans ton navigateur. Aucun bandeau de consentement n'est donc nécessaire.</p>
+
+    <h3>Services tiers</h3>
+    <p>Pour afficher l'expérience, ton navigateur se connecte aux services suivants, qui reçoivent techniquement ton adresse IP :</p>
+    <ul>
+      <li><strong>Google Fonts</strong> (fonts.googleapis.com, fonts.gstatic.com) — fournit les polices Instrument Serif et Inter Tight.</li>
+      <li><strong>jsDelivr</strong> (cdn.jsdelivr.net) — fournit les librairies three.js et MediaPipe.</li>
+      <li><strong>Google Cloud Storage</strong> (storage.googleapis.com) — fournit le modèle de détection de la main, téléchargé uniquement quand tu actives la caméra.</li>
+      <li><strong>Vercel</strong> (hébergement) — le serveur peut garder des journaux techniques (adresse IP, date, page) pour la sécurité.</li>
+    </ul>
+    <p>Aucun de ces services ne reçoit les images de ta caméra.</p>
+
+    <h3>Tes droits</h3>
+    <p>Tu peux demander l'accès, la correction ou la suppression de données te concernant, ou t'opposer à leur traitement, en écrivant à <a href="mailto:imane.shaiba@outlook.com">imane.shaiba@outlook.com</a>. Tu peux aussi introduire une plainte auprès de l'Autorité de protection des données belge (<a href="https://www.autoriteprotectiondonnees.be">autoriteprotectiondonnees.be</a>).</p>
+
+    <h2>3. Accessibilité</h2>
+    <ul>
+      <li>Les gestes sont un bonus : chaque action existe aussi à la souris, au toucher et au clavier (flèches pour tourner, Espace ou Entrée pour changer de forme).</li>
+      <li>Si ton système demande moins d'animations, la forme s'apaise : pas de rotation automatique ni d'effet glitch.</li>
+      <li>Les messages d'état de la caméra sont annoncés aux lecteurs d'écran.</li>
+    </ul>
+    <p>Limite connue : la forme 3D est une expérience visuelle, décrite par un texte alternatif. Si quelque chose est difficile à utiliser, écris-moi.</p>
+
+    <h2>4. Crédits</h2>
+    <dl>
+      <dt>Conception, design et développement</dt><dd>Shaiba Imane</dd>
+      <dt>Détection de la main</dt><dd>MediaPipe Hand Landmarker, Google — licence Apache 2.0</dd>
+      <dt>3D</dt><dd>three.js — licence MIT</dd>
+      <dt>Bruit du shader</dt><dd>Simplex noise 3D, Ashima Arts et Stefan Gustavson — licence MIT</dd>
+      <dt>Palette irisée</dt><dd>technique des palettes cosinus d'Inigo Quilez</dd>
+      <dt>Lissage du curseur</dt><dd>filtre « One Euro », Casiez, Roussel et Vogel (2012)</dd>
+      <dt>Polices</dt><dd>Instrument Serif et Inter Tight — SIL Open Font License</dd>
+      <dt>Version vidéo</dt><dd>prototypée dans TouchDesigner (Derivative), avec le plugin MediaPipe TouchDesigner de Torin Blankensmith — licence MIT</dd>
+    </dl>
+
+    <h2>5. Propriété intellectuelle</h2>
+    <p>Le design, les textes et le code de ce projet appartiennent à Shaiba Imane, sauf mention contraire dans les crédits. Ils ne peuvent pas être réutilisés sans autorisation. Les librairies citées restent la propriété de leurs auteurs et sont utilisées selon leurs licences.</p>
+    <p class="updated" style="margin-top:56px">© 2026 Shaiba Imane — Gesture Lab. Tous droits réservés.</p>
+  </main>
+</body>
+</html>

@@ -3,6 +3,8 @@
 Une forme 3D qu'on sculpte avec la main, via la caméra : *touche sans toucher*.
 Projet personnel de Shaiba Imane, présenté lors des portes ouvertes.
 
+👉 **Voir le site : https://shaiba-imane-gesture-lab.vercel.app**
+
 - **Web** : `index.html` — three.js + shaders GLSL, détection de la main avec MediaPipe Hand Landmarker, 100 % dans le navigateur (aucune image envoyée).
 - **TouchDesigner** : `touchdesigner/` — même forme et mêmes gestes, pour une version vidéo (voir `touchdesigner/GUIDE.md`).
 
@@ -23,7 +25,7 @@ Site statique, sans build : ouvrir `index.html` avec Live Server (la caméra dem
 
 ## Déploiement
 
-Hébergé sur Vercel (site statique, aucune configuration).
+Hébergé sur Vercel (site statique, aucune configuration) : https://shaiba-imane-gesture-lab.vercel.app
 
 ---
 

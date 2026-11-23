@@ -1,7 +1,7 @@
 # Gesture Lab — Shaiba Imane
 
 Une forme 3D qu'on sculpte avec la main, via la caméra : *touche sans toucher*.
-Projet personnel de Shaiba Imane, présenté lors des portes ouvertes.
+Projet personnel présenté lors des portes ouvertes.
 
 👉 **Voir le site : https://shaiba-imane-gesture-lab.vercel.app**
 
